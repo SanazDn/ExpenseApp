@@ -65,7 +65,7 @@ const QuoteForm = (props) => {
             <input id='date' rows='5' ref={dateInputRef}></input>
           </div>
           <div className={classes.actions}>
-            <button onClick={finishEnteringHandler} className='btn'>Add Quote</button>
+            <button onClick={finishEnteringHandler} className='btn'>Add Expense</button>
           </div>
         </form>
       </Card>
