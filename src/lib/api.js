@@ -1,4 +1,4 @@
-const FIREBASE_DOMAIN = 'https://routhttp-848bb-default-rtdb.firebaseio.com';
+const FIREBASE_DOMAIN = 'https://expense-6b973-default-rtdb.firebaseio.com/';
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
